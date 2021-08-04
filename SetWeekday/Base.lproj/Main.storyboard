@@ -22,22 +22,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here you will see to day of the week" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-cf-DXB">
-                                <rect key="frame" x="123" y="331.5" width="185" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="185" id="PsO-cI-aMM"/>
-                                    <constraint firstAttribute="height" constant="46" id="xQC-yY-dpg"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waY-TF-wVW">
-                                <rect key="frame" x="142" y="482" width="130" height="30"/>
+                                <rect key="frame" x="178" y="477" width="58" height="30"/>
                                 <color key="backgroundColor" systemColor="labelColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="130" id="qTa-HZ-3Wn"/>
-                                </constraints>
                                 <state key="normal" title="Find day"/>
                                 <connections>
                                     <action selector="findDay:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yeQ-rH-Kgf"/>
@@ -94,23 +81,28 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here you will see to day of the week" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-cf-DXB">
+                                <rect key="frame" x="114.5" y="380" width="185" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="185" id="Pey-XR-1fg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
                             <constraint firstItem="Ogh-hh-dwh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="24" id="6vN-G3-uax"/>
                             <constraint firstItem="hGd-Ke-02A" firstAttribute="top" secondItem="Ogh-hh-dwh" secondAttribute="bottom" constant="70" id="CXq-xX-NxF"/>
-                            <constraint firstItem="waY-TF-wVW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ElR-Xo-YCd"/>
-                            <constraint firstItem="fb1-cf-DXB" firstAttribute="top" secondItem="hGd-Ke-02A" secondAttribute="bottom" constant="20" id="Eui-Kf-ahj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hGd-Ke-02A" secondAttribute="trailing" constant="16" id="GQu-jG-H6T"/>
+                            <constraint firstItem="waY-TF-wVW" firstAttribute="top" secondItem="fb1-cf-DXB" secondAttribute="bottom" constant="56" id="MJh-ZC-tuM"/>
+                            <constraint firstItem="fb1-cf-DXB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="PTX-gU-t2Q"/>
+                            <constraint firstItem="fb1-cf-DXB" firstAttribute="top" secondItem="sQ3-qY-YzI" secondAttribute="bottom" constant="68.5" id="RWq-tp-L6h"/>
                             <constraint firstItem="hGd-Ke-02A" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="S7u-VY-Qyl"/>
-                            <constraint firstItem="waY-TF-wVW" firstAttribute="top" secondItem="fb1-cf-DXB" secondAttribute="bottom" constant="104.5" id="VO7-Bg-gIU"/>
                             <constraint firstItem="Ogh-hh-dwh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Vcz-K2-bwj"/>
-                            <constraint firstItem="waY-TF-wVW" firstAttribute="centerX" secondItem="hGd-Ke-02A" secondAttribute="centerX" id="W2u-Wf-iZ2"/>
-                            <constraint firstItem="fb1-cf-DXB" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" symbolic="YES" id="djT-Ka-ueu"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="waY-TF-wVW" secondAttribute="bottom" constant="350" id="g8U-87-0Jv"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fb1-cf-DXB" secondAttribute="trailing" constant="106" id="hky-2C-TdU"/>
-                            <constraint firstItem="waY-TF-wVW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="ipN-uK-Aoq"/>
+                            <constraint firstItem="waY-TF-wVW" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="jDe-nb-jbS"/>
                         </constraints>
                     </view>
                     <connections>

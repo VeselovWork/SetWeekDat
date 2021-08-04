@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var dateTF: UITextField!
     
-    @IBOutlet weak var monthTF: UITextField!
+    @IBOutlet weak var mounthTF: UITextField!
     
     @IBOutlet weak var yearTF: UITextField!
     
